@@ -7,7 +7,7 @@ const RecipeCard = ({ data, handelWantToCook }) => {
       <div className="relative">
         <img
           src={data.recipe_image}
-          alt="Spaghetti Bolognese"
+          alt={data.recipe_name}
           className="w-full h-48 object-cover"
         />
       </div>
